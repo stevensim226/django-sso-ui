@@ -25,5 +25,5 @@ setup(
     ],
     packages=["django_sso_ui"],
     include_package_data=True,
-    install_requires=["python-cas", "django"],
+    install_requires=["python-cas", "django", "six"],
 )
